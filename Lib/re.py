@@ -364,5 +364,5 @@ class Scanner:
                 action = action(self, m.group())
             if action is not None:
                 append(action)
-            i = j
+            i = j 
         return result, string[i:]
